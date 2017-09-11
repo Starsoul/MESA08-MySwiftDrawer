@@ -12,13 +12,18 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
+        let myview = MyView(frame: frame)
+        view.addSubview(myview)
+        
+        
+       
     }
 
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
+       
         }
     }
 

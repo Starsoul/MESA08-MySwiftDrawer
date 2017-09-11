@@ -11,6 +11,7 @@
 		1222BB411F663CF100E720DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222BB401F663CF100E720DF /* ViewController.swift */; };
 		1222BB431F663CF100E720DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1222BB421F663CF100E720DF /* Assets.xcassets */; };
 		1222BB461F663CF100E720DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1222BB441F663CF100E720DF /* Main.storyboard */; };
+		1222BB4E1F663DC400E720DF /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222BB4D1F663DC400E720DF /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1222BB421F663CF100E720DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1222BB451F663CF100E720DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1222BB471F663CF100E720DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1222BB4D1F663DC400E720DF /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1222BB421F663CF100E720DF /* Assets.xcassets */,
 				1222BB441F663CF100E720DF /* Main.storyboard */,
 				1222BB471F663CF100E720DF /* Info.plist */,
+				1222BB4D1F663DC400E720DF /* MyView.swift */,
 			);
 			path = MySwiftDrawer;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1222BB4E1F663DC400E720DF /* MyView.swift in Sources */,
 				1222BB411F663CF100E720DF /* ViewController.swift in Sources */,
 				1222BB3F1F663CF100E720DF /* AppDelegate.swift in Sources */,
 			);
